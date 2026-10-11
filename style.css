@@ -434,7 +434,7 @@ nav ul {
 }
 
 .hero-img {
-	background-image: url(Images/hero-image.webp);
+	background-image: url(images/hero-edmonton-skyline-aurora.webp);
 	height: 1150px;
 	background-size: cover;
 	margin-top: 15px;
@@ -442,7 +442,7 @@ nav ul {
 }
 
 .astrospheric-img {
-	background-image: url(Images/Astrospheric.png);
+	background-image: url(images/astrospheric-forecast.png);
 	height: 1195px;
 	width: 560px;
 	background-size: cover;
@@ -457,7 +457,7 @@ nav ul {
 }
 
 .telescope-img {
-	/* background-image: url(Images/telescope\ 1.jpg); */
+	/* background-image: url(images/telescope-skywatcher-newtonian.jpg); */
 	height: 100%;
 	width: 100%;
 	background-size: auto;

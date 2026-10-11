@@ -66,7 +66,7 @@ rasc-edmonton-redesign/
 ├── normalize.css
 ├── layout.css        # Grid and layout
 ├── style.css         # Colours, type, and components
-└── Images/
+└── images/
 ```
 
 ## Credits
