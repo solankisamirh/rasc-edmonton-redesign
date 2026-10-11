@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,7 +23,7 @@
 
 		<div class="nav-wrap">
 			<div>
-				<a href="home.html"><img src="Images/RASC-Logo.jpg" style="width: 100px;"></a>
+				<a href="home.html"><img src="Images/RASC-Logo.jpg" style="width: 100px;" alt="RASC Edmonton Centre home"></a>
 			</div>
 
 			<div class="nav-border">
@@ -56,7 +56,7 @@
 				<div class="row">
 
 					<div class="col col-lg-9">
-						<input type="text" name="searchbar" placeholder="Search here..." class="input-search">
+						<input type="text" id="searchbar" name="searchbar" placeholder="Search here..." class="input-search" aria-label="Search the RASC Edmonton website">
 					</div>
 
 					<div class="col col-lg-1">
@@ -97,10 +97,10 @@
 					<div class="certi-left-col">
 						<div class="certi-left-item">
 							<h2 class="certi-title margin-zero">Observing Certificates</h2>
-							<img src="Images/1NGC.jpg" class="certi-img-left">
-							<img src="Images/2M.jpg" class="certi-img">
-							<img src="Images/3EU.jpg" class="certi-img">
-							<img src="Images/4IW.jpg" class="certi-img-right">
+							<img src="Images/1NGC.jpg" alt="RASC Finest NGC Observer certificate badge" class="certi-img-left">
+							<img src="Images/2M.jpg" alt="RASC Messier Observer certificate badge" class="certi-img">
+							<img src="Images/3EU.jpg" alt="RASC Explore the Universe Observer certificate badge" class="certi-img">
+							<img src="Images/4IW.jpg" alt="RASC Isabel Williamson Lunar Observer certificate badge" class="certi-img-right">
 							<p class="certi-text">
 								Ready to shine like a star? Apply for your RASC
 								Observing Certificate today by emailing your 
@@ -114,10 +114,10 @@
 						</div>
 						<div class="certi-left-item">
 							<h2 class="certi-title margin-zero">Astro Imaging Certificates</h2>
-							<img src="Images/1NGC.jpg" class="certi-img-left">
-							<img src="Images/2M.jpg" class="certi-img">
-							<img src="Images/3EU.jpg" class="certi-img">
-							<img src="Images/4IW.jpg" class="certi-img-right">
+							<img src="Images/1NGC.jpg" alt="RASC Finest NGC Observer certificate badge" class="certi-img-left">
+							<img src="Images/2M.jpg" alt="RASC Messier Observer certificate badge" class="certi-img">
+							<img src="Images/3EU.jpg" alt="RASC Explore the Universe Observer certificate badge" class="certi-img">
+							<img src="Images/4IW.jpg" alt="RASC Isabel Williamson Lunar Observer certificate badge" class="certi-img-right">
 							<p class="certi-text">
 								Ready to capture the cosmos in stunning detail?
 								Apply for your RASC Astroimaging Certificate 
@@ -131,10 +131,10 @@
 						</div>
 						<div class="certi-left-item">
 							<h2 class="certi-title margin-zero">Astro Imaging Corner</h2>
-							<img src="Images/1NGC.jpg" class="certi-img-left">
-							<img src="Images/2M.jpg" class="certi-img">
-							<img src="Images/3EU.jpg" class="certi-img">
-							<img src="Images/4IW.jpg" class="certi-img-right">
+							<img src="Images/1NGC.jpg" alt="RASC Finest NGC Observer certificate badge" class="certi-img-left">
+							<img src="Images/2M.jpg" alt="RASC Messier Observer certificate badge" class="certi-img">
+							<img src="Images/3EU.jpg" alt="RASC Explore the Universe Observer certificate badge" class="certi-img">
+							<img src="Images/4IW.jpg" alt="RASC Isabel Williamson Lunar Observer certificate badge" class="certi-img-right">
 							<p class="certi-text">
 								Want to wow the astronomy world with your 
 								cosmic shot? Email your image link and 
@@ -227,7 +227,7 @@
 							Future zoom session: Oct 22nd. 
 						</p>
 						<div class="text-right section-padding">
-							<button class="text-right button-continue self-start" type="submit">Continur reading...</button>
+							<button class="text-right button-continue self-start" type="submit">Continue reading...</button>
 						</div>
 					</div>
 				</div>
@@ -256,7 +256,7 @@
 							Guest Speaker: Alan Dyer<br>
 						</p>
 						<div class="text-right section-padding">
-							<button class="text-right button-continue self-start" type="submit">Continur reading...</button>
+							<button class="text-right button-continue self-start" type="submit">Continue reading...</button>
 						</div>
 					</div>
 				</div>
@@ -285,22 +285,22 @@
 						<form class="contact-form">
 							<div class="form-group">
 								<label for="fullName" class="input-contact-lbl">Full Name</label>
-								<input type="text" name="fullName" placeholder="Type your name..." class="input-contact width-full">
+								<input type="text" id="fullName" name="fullName" autocomplete="name" placeholder="Type your name..." class="input-contact width-full">
 							</div>
 
 							<div class="form-group">
 								<label for="email" class="input-contact-lbl">Email</label>
-								<input type="email" name="email" placeholder="Type your email..." class="input-contact width-full">
+								<input type="email" id="email" name="email" autocomplete="email" placeholder="Type your email..." class="input-contact width-full">
 							</div>
 
 							<div class="form-group span-contact-2">
 								<label for="contact" class="input-contact-lbl">Who would you like to contact?</label>
-								<input type="text" name="contact" placeholder="Type your name..." class="input-contact width-half">
+								<input type="text" id="contact" name="contact" placeholder="Type a name or department..." class="input-contact width-half">
 							</div>
 
 							<div class="form-group span-contact-2">
 								<label for="message" class="input-contact-lbl">Message</label>
-								<textarea name="message" placeholder="Write your message"
+								<textarea id="message" name="message" placeholder="Write your message"
 										class="input-contact-msg width-full"></textarea>
 							</div>
 
@@ -352,17 +352,16 @@
 
 						<div class="col col-lg-2">
 
-							<img src="Images/facebook.jpg" class="social-icon">
-							<img src="Images/x.jpg" class="social-icon">
-							<img src="Images/instagram.jpg" class="social-icon">
-							<img src="Images/youtube.jpg" class="social-icon">
+							<img src="Images/facebook.jpg" class="social-icon" alt="Facebook">
+							<img src="Images/x.jpg" class="social-icon" alt="X (formerly Twitter)">
+							<img src="Images/instagram.jpg" class="social-icon" alt="Instagram">
+							<img src="Images/youtube.jpg" class="social-icon" alt="YouTube">
 
 						</div>
 					</div>
 
 				</div>
 
-			</div>
 
 		</section>
 
