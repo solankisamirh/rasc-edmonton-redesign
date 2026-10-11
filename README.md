@@ -4,6 +4,8 @@ A four-page website redesign concept for the **Royal Astronomical Society of Can
 
 Built by **Samir Solanki** as Project 4 for **DESN 340** in the Post Diploma in Digital Design Experience at **MacEwan University** (Fall 2025).
 
+**Live site:** https://solankisamirh.github.io/rasc-edmonton-redesign/
+
 > This is a student concept project. It is not the official RASC Edmonton website.
 
 ## Pages
@@ -55,10 +57,10 @@ The commit history shows each change compared with the original course submissio
 
 ## Run it locally
 
-No build step is needed. Download or clone the repository and open `home.html` in any browser.
+No build step is needed. Visit the live site, or download or clone the repository and open `home.html` in any browser.
 
 ```bash
-git clone https://github.com/<your-username>/rasc-edmonton-redesign.git
+git clone https://github.com/solankisamirh/rasc-edmonton-redesign.git
 cd rasc-edmonton-redesign
 open home.html
 ```
