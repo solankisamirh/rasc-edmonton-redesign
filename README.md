@@ -33,16 +33,25 @@ I led the project end to end, from research to a working, coded site:
 
 ## Accessibility
 
-The site was built with WCAG accessibility guidelines in mind. In October 2026, the original course version received an accessibility update:
+The site was built with WCAG accessibility guidelines in mind: every image has descriptive alt text, each page declares its language, and every form field has a label.
 
+## Updates since the course submission (October 2026)
+
+**Accessibility**
 - Added descriptive alt text to every image (logo, certificate badges, newsletter covers, calendar, social icons)
 - Set the page language with `lang="en"` on every page
 - Gave the search box an accessible name
 - Linked every contact form label to its field and added `autocomplete` hints for name and email
+
+**Code quality**
 - Fixed a stray closing tag in the footer and two typos
 - Centred the "Continue reading" button text on one line
+- Renamed all images to lowercase, hyphenated, descriptive names (no spaces), in an `images/` folder
 
-You can see these changes compared with the original course submission in the commit history.
+**Performance**
+- Resized oversized images to twice their displayed size and recompressed them, cutting the images folder from about 11 MB to 2.5 MB with no visible change
+
+The commit history shows each change compared with the original course submission.
 
 ## Run it locally
 
