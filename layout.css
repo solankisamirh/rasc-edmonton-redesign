@@ -1,0 +1,290 @@
+.container {
+	display: block;
+	width: 100%;
+}
+
+.row {
+	display: flex;             /* Makes the content run horizontally, instead of vertically */
+	flex-wrap: wrap;           /* Makes the content wrap down if the elements inside are wider than the screen */
+	align-content: stretch;    /* Makes the elements inside grow to the height of the container */
+	margin: 0px 20px;
+}
+
+.margin-zero {
+	margin: 0px;
+}
+
+.padding-zero {
+	margin: 0px;
+}
+
+.padding-rent-btn {
+	padding: 0 8px 6px 0;
+}
+
+.certi {
+    display: flex;
+    height: 115vh;
+    gap: 20px;
+    padding: 70px;
+  }
+
+  .certi-left-col {
+    display: flex;
+	flex: 1;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .certi-left-item {
+    flex: 1;
+    border-radius: 8px;
+	border-style: solid;
+	border-color: #001827;
+  }
+
+  .certi-right-col {
+    flex: 1;
+    border-radius: 8px;
+	border-style: solid;
+	border-color: #001827;
+  }
+
+ /* event page  */
+ .event {
+    display: flex;
+    gap: 20px;
+    padding: 70px;
+	flex-shrink: 0;
+	flex-basis: auto;
+  }
+
+  .event-left-row-1 {
+    display: flex;
+	flex: 1;
+    flex-direction: column;
+    gap: 20px;
+	max-height: 416px;
+	flex-shrink: 0;
+  }
+
+  .event-left-row-2 {
+    display: flex;
+	flex: 1;
+    flex-direction: column;
+    gap: 20px;
+	/* max-height: 780px; */
+	flex-shrink: 0;
+  }
+
+  .event-left-item {
+    flex: 1;
+    border-radius: 8px;
+	border-style: solid;
+	border-color: #001827;
+  }
+
+  .event-right-col {
+    flex: 1;
+    border-radius: 8px;
+	border-style: solid;
+	border-color: #001827;
+	flex-shrink: 0;
+  }
+
+/* telescope card */
+.telescope {
+    display: flex;
+    gap: 80px;
+    padding: 70px;
+	max-height: 560px;
+  }
+
+  .telescope-left-col {
+    display: flex;
+	flex: 2;
+    flex-direction: column;
+    gap: 20px;
+	max-height: 560px;
+  }
+
+  .telescope-left-item {
+    flex: 1;
+    border-radius: 8px;
+	border-style: solid;
+	border-color: #001827;
+  }
+
+  .telescope-right-col {
+    flex: 1;
+    border-radius: 8px;
+	border-style: solid;
+	border-color: #001827;
+	max-height: 560px;
+  }
+
+  .newsletter {
+	display: flex;
+    gap: 135px;
+    padding: 60px 25px 60px 25px;
+  }
+
+ .newsletter-col {
+    flex: 1;
+	max-width: 25%;
+    border-radius: 8px;
+	border-style: solid;
+	border-color: #001827;
+  }
+
+
+.contact-form {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 90px 90px 1fr;
+	gap: 60px;
+	padding: 0 100px 0 50px;
+}
+
+.span-contact-2 {
+	grid-column: span 2;
+}
+
+.section-padding {
+	padding: 0px 15px;
+}
+
+.position-relative {
+	position: relative;
+}
+
+.sub-header {
+	display: block;
+}
+
+.contact-btn-margin {
+	margin: 40px;
+}
+
+/* column start */
+.col {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0%;
+	padding: 0px 20px;
+}
+
+.col-lg-1 {
+	max-width: 8.33%;
+}
+
+.col-lg-2 {
+	max-width: 16.67%;
+}
+
+.col-lg-3 {
+	max-width: 25%;
+}
+
+.col-lg-4 {
+	max-width: 33.33%;
+}
+
+.col-lg-5 {
+	max-width: 41.67%;
+}
+
+.col-lg-6 {
+	max-width: 50%;
+}
+
+.col-lg-7 {
+	max-width: 58.33%;
+}
+
+.col-lg-8 {
+	max-width: 66.67%;
+}
+
+.col-lg-9 {
+	max-width: 75%;
+}
+
+.col-lg-10 {
+	max-width: 83.33%;
+}
+
+.col-lg-11 {
+	max-width: 91.67%;
+}
+
+.col-lg-12 {
+	max-width: 100%;
+}
+/* column end */
+
+/* mobile column start */
+@media screen and (max-width: 478px) {
+
+	.col-sm-1 {
+		flex: 0 0 8.33%;
+		max-width: 8.33%;
+	}
+
+	.col-sm-2 {
+		flex: 0 0 16.67%;
+		max-width: 16.67%;
+	}
+
+	.col-sm-3 {
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+
+	.col-sm-4 {
+		flex: 0 0 33.33%;
+		max-width: 33.33%;
+	}
+
+	.col-sm-5 {
+		flex: 0 0 41.67%;
+		max-width: 41.67%;
+	}
+
+	.col-sm-6 {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+	.col-sm-7 {
+		flex: 0 0 58.33%;
+		max-width: 58.33%;
+	}
+
+	.col-sm-8 {
+		flex: 0 0 66.67%;
+		max-width: 66.67%;
+	}
+
+	.col-sm-9 {
+		flex: 0 0 75%;
+		max-width: 75%;
+	}
+
+	.col-sm-10 {
+		flex: 0 0 83.33%;
+		max-width: 83.33%;
+	}
+
+	.col-sm-11 {
+		flex: 0 0 91.67%;
+		max-width: 91.67%;
+	}
+
+	.col-sm-12 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+}
+/* mobile column end */
