@@ -40,6 +40,7 @@ The site was built with WCAG accessibility guidelines in mind. In October 2026, 
 - Gave the search box an accessible name
 - Linked every contact form label to its field and added `autocomplete` hints for name and email
 - Fixed a stray closing tag in the footer and two typos
+- Centred the "Continue reading" button text on one line
 
 You can see these changes compared with the original course submission in the commit history.
 

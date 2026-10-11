@@ -306,16 +306,20 @@ nav ul {
 }
 
 .button-continue {
-	display: inline-block;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
 	color: white;
-	padding: 15px 15px;
+	padding: 0 24px;
 	background-color: #003052;
 	text-decoration: none;
+	text-align: center;
+	white-space: nowrap;
 	font-weight: 400;
 	transition: background 0.2s ease;
 	border: none;
 	border-radius: 12px;
-	width: 235px;
+	min-width: 235px;
 	height: 60px;
 	font-size: 25px;
 }
