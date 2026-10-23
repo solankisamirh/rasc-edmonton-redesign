@@ -2,7 +2,7 @@
 
 A four-page website redesign concept for the **Royal Astronomical Society of Canada (RASC), Edmonton Centre**, designed and hand-coded in HTML and CSS.
 
-Built by **Samir Solanki** as Project 4 for **DESN 340** in the Post Diploma in Digital Design Experience at **MacEwan University** (Fall 2025).
+Built by **Samir Solanki** as a Project for coursework at **MacEwan University**.
 
 **Live site:** https://solankisamirh.github.io/rasc-edmonton-redesign/
 
